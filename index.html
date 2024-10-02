@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+    <header>
+        <div class="logo">
+            <img src="hospital_image.jpeg" alt="Sasha Advanced Health Solutions Logo">
+        </div>
+        <h1>Welcome to Sasha Advanced Health Solutions</h1>
+    </header>
+
+    <div class="navigation">
+        <button onclick="window.location.href='add_patient.html'">Add Patient</button>
+        <button onclick="window.location.href='view_patients.html'">View Patients</button>
+        <button onclick="window.location.href='add_doctor.html'">Add Doctor</button>
+        <button onclick="window.location.href='view_doctors.html'">View Doctors</button>
+        <button onclick="window.location.href='add_appointment.html'">Add Appointment</button>
+        <button onclick="window.location.href='view_appointments.html'">View Appointments</button>
+    </div>
+
+    <!-- Description Section -->
+    <div class="description">
+        <h2>About Us</h2>
+        <p>
+            At Sasha Advanced Health Solutions, we are dedicated to providing exceptional healthcare services to our community. 
+            Our state-of-the-art facility is equipped with the latest technology, ensuring that our patients receive the best possible care.
+            Our team of experienced medical professionals is committed to fostering a compassionate environment, 
+            focusing on patient-centered approaches to health and wellness.
+        </p>
+        
+        <h3>Key Points</h3>
+        <ul>
+            <li><strong>Experienced Staff:</strong> Our team consists of highly trained doctors, nurses, and support staff committed to your health.</li>
+            <li><strong>Advanced Technology:</strong> We utilize the latest medical technology to provide accurate diagnoses and effective treatments.</li>
+            <li><strong>Patient-Centered Care:</strong> We prioritize the needs and comfort of our patients, ensuring a supportive environment.</li>
+            <li><strong>Community Engagement:</strong> We actively participate in community health initiatives to promote overall well-being.</li>
+        </ul>
+        
+        <h3>Our Services</h3>
+        <p>We offer a wide range of medical services, including:</p>
+        <ul>
+            <li><strong>General Medicine:</strong> Comprehensive care for various medical conditions.</li>
+            <li><strong>Pediatrics:</strong> Specialized care for infants, children, and adolescents.</li>
+            <li><strong>Emergency Services:</strong> Immediate care for critical health issues.</li>
+            <li><strong>Surgery:</strong> State-of-the-art surgical procedures performed by experienced surgeons.</li>
+            <li><strong>Diagnostic Imaging:</strong> Advanced imaging services, including X-rays, CT scans, and MRIs.</li>
+            <li><strong>Rehabilitation:</strong> Physical therapy and rehabilitation services to aid recovery.</li>
+            <li><strong>Maternity Services:</strong> Comprehensive care for expecting mothers and newborns.</li>
+            <li><strong>Pharmacy:</strong> On-site pharmacy for convenient medication access.</li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Sasha Advanced Health Solutions</p>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

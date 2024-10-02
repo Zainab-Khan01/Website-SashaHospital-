@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    line-height: 1.6; /* Better line spacing */
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5ff; /* Fallback background color */
+    color: #333; /* Dark text color for readability */
+}
+
+body.home-page {
+    background-image: url('image1.jpeg'); /* Background image for home page */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    position: relative; /* Positioning for the overlay */
+}
+
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: rgba(0, 123, 255, 0.605);
+    color: white; /* White text in header */
+    padding: 20px; /* Padding around header */
+}
+
+/* Header content styling */
+.header-content {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+/* Logo styling */
+.logo img {
+    width: 100px; /* Set logo width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and title */
+}
+
+/* Title styling */
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+    font-size: 2.5em; /* Larger main title */
+    margin: 0; /* Remove margin */
+}
+
+/* Description styling */
+.description {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px; /* Center and limit width */
+    background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: justify; /* Justify text for a cleaner look */
+}
+
+/* List styling */
+ul {
+    padding-left: 20px; /* Indent lists */
+}
+
+/* Navigation styling */
+.navigation {
+    text-align: center; /* Center navigation buttons */
+    margin: 30px 0;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px; /* Button padding */
+    margin: 5px; /* Space between buttons */
+    background-color: #28a745; /* Green button background */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    font-size: 1em; /* Button font size */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #218838; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Center footer text */
+    margin: 30px 0;
+    color: #777; /* Lighter text for footer */
+    padding: 20px; /* Footer padding */
+    background-color: rgba(52, 58, 64, 0.8); /* Semi-transparent dark footer */
+    color: white; /* Light text color in footer */
+    border-top: 5px solid #007bff; /* Top border for footer */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    button {
+        width: 80%; /* Wider buttons on small screens */
+    }
+}
